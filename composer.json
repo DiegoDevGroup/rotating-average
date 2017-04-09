@@ -12,7 +12,7 @@
     "type": "project",
     "require": {
 		"php": ">=5.4",
-        "diegodevgroup/rotating-base": "dev-master"
+        "diegodevgroup/rotating-base": "~1.0.0"
     },
 	"require-dev": {
 		"phpunit/phpunit": "5.2.*"
