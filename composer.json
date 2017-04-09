@@ -1,0 +1,25 @@
+{
+    "name": "diegodevgroup/rotating-average",
+    "description": "Rotating Average.",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Congdon",
+            "email": "john@diegodev.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4",
+        "diegodevgroup/rotating-base": "dev-master"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "DiegoDevGroup\\RotatingAverage\\": "src/"
+        }
+    }
+}
